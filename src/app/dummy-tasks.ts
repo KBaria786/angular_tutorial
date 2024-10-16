@@ -1,4 +1,6 @@
-const dummyTasks = [
+import { Task } from "./tasks/task/task.model";
+
+export const DUMMY_TASKS: Task[] = [
     {
         id: 't1',
         userId: 'u1',
